@@ -1,18 +1,54 @@
+This project was for a computer science course taken in Fall 2023. For the project, the criteria were to utilize topics introduced in the course. The topics to be utilized were as follows:
+Procedural programming in Java
+	-Variables of varying types
+	-Console input and output
+	-If statements
+	-Loops
+	-Static Methods
+	-Arrays*
+Java Standard library (At least one from the following list utility)
+	-ArrayList (Resizing array)
+	-Math (Math utilities)
+	-Random (Generate random numbers)
+	-String (Text)
+	-etc (Something not included here?)
+Object-oriented programming
+	-Defining your own classes (At least two classes in their own files)
+	-Creating objects
+	-Inheritance*
+		-Abstract classes
+		-Polymorphism
+-Exception Handling*
+-File input and Output* (Read and/or save data from your program)
+
+*Atleast half marked with "*" must be utilized. 
+
+
+
+From Project Report Abstract:
+
+With Gobblet, the idea is to incorporate many fundamental
+programming concepts in Java in a way that was fun to build and
+use afterwards. This includes topics such as procedural
+programming, standard libraries, and object-oriented
+programming.
+
+In order to do this, Gobblet will consist of a 2 player game of
+the board game Gobblet all within a console. Each player will
+take their turn placing a piece on the board and the first to
+connect 4 in a row/column/diagonal wins; similar to tic-tac-toe.
+However, each piece has its own size and can overtake a spot on
+the board if the already placed piece is smaller; this covers
+the piece but does not remove it, thus if the larger piece is
+moved later, the piece under will be revealed. Pieces can also
+be repositioned after being placed since there will not be
+enough pieces to fill the board.
+
+To convey the game state, ascii art will be made to represent
+the board and the pieces on the board as well as the pieces left
+in each player’s hand with each player represented by a
+different color (red or blue).
+
+
+
 Put your reflections and notes for the future here!
-
-Reflections:
-I will need to put some of the final things to make this into what I really want it to be, a fun game of Gobblet. 
-- Gobbling
-- Rules with logic
-- Saving
-
-After finishing:
-I implemented gobbling, rules, and exceptions. These took some time but I got it to a state that I was happy with to call finished. The one thing I missed from the official rules was a draw condition. If I decide to continue working on this project, maybe for practice with GUIs, I will 100 percent add drawing. I also probably would want a quit option in the menu to end the game. 
-
-Notes:
-
-I may not actually end up doing Saving because Exceptions make my program flow better anyway. Saving would be a want to have and I might not have time for it. 
-
-I ended up just not doing File I/O because it seemed like an unneccesary feature that was just to say I did it. I may end up implementing that in my own time. 
-
-All the exceptions found are intended, unless they do not have a message or they completely stop the program. 
