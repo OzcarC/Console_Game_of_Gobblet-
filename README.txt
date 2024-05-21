@@ -48,7 +48,3 @@ To convey the game state, ascii art will be made to represent
 the board and the pieces on the board as well as the pieces left
 in each player’s hand with each player represented by a
 different color (red or blue).
-
-
-
-Put your reflections and notes for the future here!
